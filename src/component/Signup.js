@@ -3,6 +3,7 @@ import './SignUp.css'
 import image from '../images/pexels-luis-gomes-546819.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHandMiddleFinger, faKey, faSignInAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faGithub, faGoogle, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { Link } from 'react-router-dom';
 
 
@@ -58,6 +59,13 @@ const SignUp = () => {
                     </div>
                     <div className="inputBox">
                         <Link id="idSignIn" to="/dashboard">Sign Up</Link>
+                    </div>
+                    <div className="inputBox">
+                        <p>Sign Up Within a second!</p>
+                        <FontAwesomeIcon icon={faFacebook}/>
+                        <FontAwesomeIcon icon={faGithub}/>
+                        <FontAwesomeIcon icon={faGoogle}/>
+                        <FontAwesomeIcon icon={faTwitter}/>
                     </div>
                 </form>
                 </div>
