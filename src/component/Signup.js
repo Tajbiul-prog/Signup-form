@@ -21,7 +21,7 @@ const Signup = () => {
                         <input type="password" name="" id=""/>
                     </div>
                     <div className="inputBox">
-                        <input type="submit" name="" value='Sign In' id=""/>
+                        <input type="submit" name="" value='Sign In' id="idSignIn"/>
                     </div>
                     <div className="inputBox">
                         <p>Don't have a account? <a href="#lol">Sign Up</a></p>

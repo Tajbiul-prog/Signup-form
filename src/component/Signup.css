@@ -67,7 +67,7 @@
 }
 .section .contentBox .formBox .inputBox input{
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 0;
     outline: none;
     font-weight: 400;
     border: 1px solid #607d8b;
@@ -84,6 +84,9 @@
     cursor: pointer;
     font-weight: 500;
 }
+#idSignIn{
+    width: 50%;
+}
 .section .contentBox .formBox .inputBox input[type='submit']:hover{
     background: #f53677;
 }
@@ -92,4 +95,30 @@
 }
 .section .contentBox .formBox .inputBox p a{
     color: #ff4584;
+}
+
+@media (max-width:768px){
+    .section .imgBox{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .section .contentBox{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+    .section .contentBox .formBox{
+        width: 100%;
+        padding: 40px;
+        background: whitesmoke;
+        margin: 50px;
+        border-radius: 20px;
+    }
+
 }
